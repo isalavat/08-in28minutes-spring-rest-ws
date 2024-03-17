@@ -1,4 +1,4 @@
-package com.salavat.restfulwebservices.user;
+package com.salavat.restfulwebservices.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
