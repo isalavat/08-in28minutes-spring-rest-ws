@@ -1,8 +1,9 @@
 package com.salavat.restfulwebservices.filtering;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonFilter;
 
-@JsonIgnoreProperties({ "field1", "field2" })
+//@JsonIgnoreProperties({ "field1", "field2" })
+@JsonFilter("SomeBeanFilter")
 public class SomeBean {
 	private String field1;
 	// @JsonIgnore
